@@ -1,3 +1,4 @@
+import { BASE_URL } from "@/Components/url";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 // import reducer from "../authSlice";
 
