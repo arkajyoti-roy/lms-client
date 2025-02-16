@@ -3,7 +3,7 @@ import { userLoggedIn } from '../authSlice';
 import { BASE_URL } from '@/Components/url';
 // import { l } from 'vite/dist/node/types.d-aGj9QkWt';
 
-const base_url = `${BASE_URL}user/`;
+const base_url = `${BASE_URL}/user/`;
 
 export const authApi = createApi({
     reducerPath: 'authApi',
