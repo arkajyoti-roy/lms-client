@@ -1,7 +1,9 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 // import reducer from "../authSlice";
 
-const base_url = 'http://localhost:8081/api/v1/course';
+// const base_url = 'http://localhost:8081/api/v1/course';
+const base_url = `${BASE_URL}course`;
+
 
 export const courseApi = createApi({
     reducerPath: "courseApi",
